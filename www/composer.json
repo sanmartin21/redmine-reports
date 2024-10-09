@@ -1,0 +1,15 @@
+{
+    "name": "opt/redmine-reports",
+    "autoload": {
+        "psr-4": {
+            "Opt\\RedmineReports\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MarceloPreis",
+            "email": "marcelo.s.preis@gmail.com"
+        }
+    ],
+    "require": {}
+}
