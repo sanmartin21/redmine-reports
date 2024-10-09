@@ -1,2 +1,5 @@
-/vendor/
-/www/.env
+# Ignore the .env file
+www/.env
+
+# Ignore the vendor directory
+www/vendor/
