@@ -9,5 +9,7 @@ WORKDIR /var/www/html
 # Copy the source code in /www into the container at /var/www/html
 COPY ../www .
 
+# COPY .htaccess /var/www/html/.htaccess
+
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN composer install
